@@ -787,5 +787,5 @@
     { "addr": "0xCbC99B988301df3BCCFC1DcA3706019C336F47f6", "name": "REKT", "decimals": 18 },
     { "addr": "0x36490A555a0019ea8457401584De111213EBD31A", "name": "CTV", "decimals": 18 }
   ],
-  "defaultPair": { "token": "OMG", "base": "ETH" }
+  "defaultPair": { "token": "REKT", "base": "ETH" }
 }
