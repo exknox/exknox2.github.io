@@ -791,7 +791,8 @@
     { "addr": "0x0ff161071e627a0e6de138105c73970f86ca7922", "name": "PIT", "decimals": 18 },
     { "addr": "0xf83301c5cd1ccbb86f466a6b3c53316ed2f8465a", "name": "CMS", "decimals": 6 },
     { "addr": "0xbD4B60a138b3fce3584EA01f50c0908c18f9677A", "name": "FNTB", "decimals": 8 },
-    { "addr": "0xB5dCB27A9483ED9C55777134bF8178B4EAd3035B", "name": "3DT", "decimals": 18 }
+    { "addr": "0xB5dCB27A9483ED9C55777134bF8178B4EAd3035B", "name": "3DT", "decimals": 18 },
+    { "addr": "0x87e960f996E789CA2c8415fC449e4720ADBE0497", "name": "VRTY", "decimals": 12 }
   ],
   "defaultPair": { "token": "REKT", "base": "ETH" }
 }
