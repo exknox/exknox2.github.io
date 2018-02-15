@@ -786,7 +786,9 @@
     { "addr": "0xffe8196bc259e8dedc544d935786aa4709ec3e64", "name": "HDG", "decimals": 18 },
     { "addr": "0xCbC99B988301df3BCCFC1DcA3706019C336F47f6", "name": "REKT", "decimals": 18 },
     { "addr": "0x36490A555a0019ea8457401584De111213EBD31A", "name": "CTV", "decimals": 18 },
-    { "addr": "0x3a92bd396aef82af98ebc0aa9030d25a23b11c6b", "name": "TBX", "decimals": 18 }
+    { "addr": "0x3a92bd396aef82af98ebc0aa9030d25a23b11c6b", "name": "TBX", "decimals": 18 },
+    { "addr": "0x395c2a324a93ab31475b5f0a9e3cfaded761fb92", "name": "MYBET", "decimals": 18 },
+    { "addr": "0x0ff161071e627a0e6de138105c73970f86ca7922", "name": "PIT", "decimals": 18 }
   ],
   "defaultPair": { "token": "REKT", "base": "ETH" }
 }
