@@ -794,5 +794,5 @@
     { "addr": "0xB5dCB27A9483ED9C55777134bF8178B4EAd3035B", "name": "3DT", "decimals": 18 },
     { "addr": "0x87e960f996E789CA2c8415fC449e4720ADBE0497", "name": "VRTY", "decimals": 12 }
   ],
-  "defaultPair": { "token": "REKT", "base": "ETH" }
+  "defaultPair": { "token": "OMG", "base": "ETH" }
 }
