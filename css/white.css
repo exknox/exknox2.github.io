@@ -373,3 +373,15 @@ pre code {
 .ttip:hover .text {
   visibility: visible;
 }
+
+#volume {  
+  display: none;
+}
+
+#orders div.height3 {
+  height: calc(100vh - 81px) !important;
+}
+
+div.buysellwidget form.form-horizontal {
+  margin-right: 10%;
+}
