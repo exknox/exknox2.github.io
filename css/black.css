@@ -83,13 +83,13 @@ a.navbar-brand {
 }
 
 .row-box.height1 {
-  height: calc(100vh - 89px);
+  height: calc(100vh - 109px);
 }
 .row-box.height2 {
   height: calc(50vh - 98px);
 }
 .row-box.height3 {
-  height: calc(50vh - 81px);
+  height: calc(50vh - 101px);
 }
 .row-box.height4 {
   height: calc(40vh - 61px);
@@ -378,4 +378,16 @@ pre code {
 
 .ttip:hover .text {
   visibility: visible;
+}
+
+#volume {  
+  display: none;
+}
+
+div.buysellwidget form.form-horizontal {
+  margin-right: 10%;
+}
+
+#orders div.height3 {
+    height: calc(100vh - 89px) !important;
 }
