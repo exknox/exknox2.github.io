@@ -1,7 +1,7 @@
 {
-  "name": "DeltaDax",
-  "short_name": "DeltaDax",
-  "display": "standalone",
+  "name": "RektEx",
+  "short_name": "RektEx",
+  "display": "RektEx",
   "background_color": "white",
   "description": "GDAX UI for EtherDelta",
   "background_color": "white",
