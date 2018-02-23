@@ -1,9 +1,9 @@
 {
   "name": "RektEx",
   "short_name": "RektEx",
-  "display": "RektEx",
+  "display": "standalone",
   "background_color": "white",
-  "description": "GDAX UI for EtherDelta",
+  "description": "GDAX UI for RektEx",
   "background_color": "white",
   "theme_color": "white",
 }
