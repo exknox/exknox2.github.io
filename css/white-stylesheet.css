@@ -8,8 +8,7 @@ html,body {
   overflow-x: auto;
   overflow-y: hidden;
   font-family: 'Open Sans', sans-serif;
-  background: #1e2b34;
-  
+  background: #ffffff;
 }
 
 .navbar.navbar-default {
@@ -63,8 +62,8 @@ a.navbar-brand {
 
 .row-header {
   width: 100%;
-  background: #2f3d45;
-  color: #fff;
+  background: #ccc;
+  color: #000;
   text-transform: uppercase;
   font-size: 16px;
   padding: 8px;
@@ -73,7 +72,7 @@ a.navbar-brand {
 
 .row-box {
   height: auto;
-  color: #fff;
+  color: #000;
   overflow-y: none;
 }
 
@@ -116,14 +115,11 @@ tr.mid-header {
  border: 0;
  margin-top: 5px;
 }
-.table td, th, tr {
-  text-align: center; 
+.table td,th,tr {
+  text-align: center;
 }
-.table-borderless tbody tr th, .table-borderless thead tr th {
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
   border: none;
-}
-.table-borderless tbody tr td {
-  border-bottom:1px solid #354149;
 }
 tr.clickable-row:hover {
   cursor: pointer;
@@ -131,20 +127,10 @@ tr.clickable-row:hover {
 }
 
 .sell {
-    background: #8f151a;
-    color: #ffffff;
-    min-width: 100px;
-    border-radius: 3px;
-    min-height: 20px;
-    padding: 2px 8px;
+  color: #f00;
 }
 .buy {
-    background: #57c065;
-    color: #ffffff;
-    min-width: 100px;
-    border-radius: 3px;
-    min-height: 20px;
-    padding: 2px 8px;
+  color: #0f0;
 }
 
 .scroll {
@@ -178,18 +164,18 @@ tr.clickable-row:hover {
   line-height: 17px;
   width: 100%;
   text-align: center;
-  background: #111d25;
-  color: #fff;
+  background: #ccc;
+  color: #000;
   border: 0;
 }
 .nav-tabs.columns > li.active > a {
-  color: #fff;
-  background: #1e2b34;
+  color: #000;
+  background: #999;
   border: 0;
 }
 .nav-tabs.columns > li > a:hover {
   color: #000;
-  background: #fff;
+  background: #666;
   border: 0;
 }
 
@@ -202,14 +188,14 @@ tr.clickable-row:hover {
 }
 
 .table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td{
-  padding: 10px 2px;
+  padding: 2px;
 }
 
 a {
-  color: #ccc;
+  color: #003;
 }
 a:hover {
-  color: #666;
+  color: #336;
   text-decoration: none;
 }
 
@@ -399,16 +385,3 @@ div.buysellwidget form.form-horizontal {
 #orders div.height3 {
     height: calc(100vh - 89px) !important;
 }
-.form-horizontal .form-control{
-	background:none;
-	box-shadow:none;
-	border:1px solid #314858;
-	color:#5f859f;
-	
-}
-.form-horizontal .form-control::-webkit-input-placeholder { color:#5f859f; opacity:1; }
-.form-horizontal .form-control::-moz-placeholder { color:#5f859f; opacity:1; }
-.form-horizontal .form-control:-ms-input-placeholder { color:#5f859f; opacity:1; }
-.form-horizontal .form-control:-moz-placeholder {  color:#5f859f; opacity:1; }
-
-
