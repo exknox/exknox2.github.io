@@ -418,4 +418,5 @@ div.buysellwidget form.form-horizontal {
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
 	border-top:medium none;
 }
-.slimScrollDiv{height:auto !important; }
+.form-group{margin-bottom:8px; }
+.scroll, .slimScrollDiv{height:auto !important; }
