@@ -121,8 +121,11 @@ tr.mid-header {
  border: 0;
  margin-top: 5px;
 }
-.table td,th,tr {
-  text-align: center;
+.table td, th, tr {
+  text-align: center; 
+}
+.table tr td { 
+  border-bottom:1px solid #354149;
 }
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
   border: none;
@@ -133,8 +136,14 @@ tr.clickable-row:hover {
 }
 
 .sell {
-  color: #f00;
+    background: #8f151a;
+    color: #ffffff;
+    min-width: 100px;
+    border-radius: 3px;
+    min-height: 20px;
+    padding: 2px 8px;
 }
+
 .buy {
   color: #0f0;
 }
@@ -194,7 +203,7 @@ tr.clickable-row:hover {
 }
 
 .table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td{
-  padding: 2px;
+  padding: 10px 2px;
 }
 
 a {
@@ -391,3 +400,16 @@ div.buysellwidget form.form-horizontal {
 #orders div.height3 {
     height: calc(100vh - 89px) !important;
 }
+.form-horizontal .form-control{
+	background:none;
+	box-shadow:none;
+	border:1px solid #314858;
+	color:#5f859f;
+	
+}
+.form-horizontal .form-control::-webkit-input-placeholder { color:#5f859f; opacity:1; }
+.form-horizontal .form-control::-moz-placeholder { color:#5f859f; opacity:1; }
+.form-horizontal .form-control:-ms-input-placeholder { color:#5f859f; opacity:1; }
+.form-horizontal .form-control:-moz-placeholder {  color:#5f859f; opacity:1; }
+
+
