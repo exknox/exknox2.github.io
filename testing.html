@@ -65,21 +65,35 @@
         <div class="col-md-3 no-float">
           <div class="row-container">
             <div class="row-header">
-              <span class="trn">order_book</span>
-            </div>
-            <div class="row-box height13">
-              <div id="orders"></div>
-            </div>
-        </div>
-      </div>
-        <div class="col-md-2 no-float">
-          <div class="row-container">
-            <div class="row-header">
               <span class="trn">Blance</span>
             </div>
             <div class="row-box height13">
                <div id="balance"></div>
             </div>
+			<div class="row-header trn">new_order</div>
+			<div class="row-box nav-header">
+			  <ul class="nav nav-tabs two columns" role="tablist">
+				<li role="presentation" class="active"><a href="#buy" aria-controls="buy" role="tab" data-toggle="tab" class="trn">buy</a></li>
+				<li role="presentation"><a href="#sell" aria-controls="sell" role="tab" data-toggle="tab" class="trn">sell</a></li>
+			  </ul>
+			</div>
+			<div class="row-box height3 padding">
+			  <div class="tab-content buysellwidget">
+				<div role="tabpanel" class="tab-pane active" id="buy"></div>
+				<div role="tabpanel" class="tab-pane" id="sell"></div>
+			  </div>
+			</div>
+        </div>
+      </div>
+        <div class="col-md-2 no-float">
+          <div class="row-container">
+            <div class="row-header">
+              <span class="trn">order_book</span>
+            </div>
+            <div class="row-box height13">
+              <div id="orders"></div>
+            </div>
+			
         </div>
 		
       </div>
@@ -101,29 +115,7 @@
                 <div role="tabpanel" class="tab-pane" id="chartDepth" style="height: 100%; width: 100%; background: #000;"></div>
               </div>
             </div>
-          </div>
-
-          <div class="row-container">
-            <div class="col-md-3 no-float">
-              <div class="row-container">
-                <div class="row-header trn">new_order</div>
-                <div class="row-box nav-header">
-                  <ul class="nav nav-tabs two columns" role="tablist">
-                    <li role="presentation" class="active"><a href="#buy" aria-controls="buy" role="tab" data-toggle="tab" class="trn">buy</a></li>
-                    <li role="presentation"><a href="#sell" aria-controls="sell" role="tab" data-toggle="tab" class="trn">sell</a></li>
-                  </ul>
-                </div>
-                <div class="row-box height3 padding">
-                  <div class="tab-content buysellwidget">
-                    <div role="tabpanel" class="tab-pane active" id="buy"></div>
-                    <div role="tabpanel" class="tab-pane" id="sell"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 no-float">
-            <div class="row-header trn">my_transactions</div>
+			<div class="row-header trn">my_transactions</div>
             <div class="row-box nav-header">
               <ul class="nav nav-tabs four columns" role="tablist">
                 <!--<li role="presentation"><a href="#important" aria-controls="info" role="tab" data-toggle="tab" class="trn">balance</a></li>-->
@@ -145,10 +137,7 @@
               </div>
             </div>
           </div>
-
-
-          </div>
-          
+ 
         </div>
         <div class="col-md-3 no-float">
           <div class="row-container">
