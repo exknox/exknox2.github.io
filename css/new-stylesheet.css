@@ -69,6 +69,8 @@ a.navbar-brand {
   font-size: 16px;
   padding: 8px;
   height: 38px;
+  text-align:center;
+  font-weight:600;
 }
 
 .row-box {
@@ -171,6 +173,7 @@ tr.clickable-row:hover {
 }
 .nav-tabs.columns {
   border-bottom: 0;
+  background:#111d25;
 }
 .nav-tabs.columns > li > a {
   border-radius: 0;
@@ -322,7 +325,7 @@ pre code {
 }
 
 .overflow-hidden {
-  max-width: 90px;
+  max-width: 125px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -412,3 +415,6 @@ div.buysellwidget form.form-horizontal {
 .form-horizontal .form-control:-moz-placeholder {  color:#5f859f; opacity:1; }
 
 
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	border-top:medium none;
+}
