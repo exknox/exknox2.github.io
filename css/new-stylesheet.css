@@ -8,12 +8,11 @@ html,body {
   overflow-x: auto;
   overflow-y: hidden;
   font-family: 'Open Sans', sans-serif;
-  background: #202c34;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#333333+0,202c34+100 */
-  background: rgb(51,51,51); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(51,51,51,1) 0%, rgba(32,44,52,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(51,51,51,1) 0%,rgba(32,44,52,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(51,51,51,1) 0%,rgba(32,44,52,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #1e2b34;
+  /*   background: rgb(51,51,51);  
+  background: -moz-linear-gradient(top,  rgba(51,51,51,1) 0%, rgba(32,44,52,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(51,51,51,1) 0%,rgba(32,44,52,1) 100%); 
+  background: linear-gradient(to bottom,  rgba(51,51,51,1) 0%,rgba(32,44,52,1) 100%); 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#202c34',GradientType=0 ); /* IE6-9 */
 }
 
@@ -68,7 +67,7 @@ a.navbar-brand {
 
 .row-header {
   width: 100%;
-  background: #444;
+  background: #2f3d45;
   color: #fff;
   text-transform: uppercase;
   font-size: 16px;
@@ -121,11 +120,14 @@ tr.mid-header {
  border: 0;
  margin-top: 5px;
 }
-.table td,th,tr {
-  text-align: center;
+.table td, th, tr {
+  text-align: center; 
 }
-.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+.table-borderless tbody tr th, .table-borderless thead tr th {
   border: none;
+}
+.table-borderless tbody tr td {
+  border-bottom:1px solid #354149;
 }
 tr.clickable-row:hover {
   cursor: pointer;
@@ -133,11 +135,22 @@ tr.clickable-row:hover {
 }
 
 .sell {
-  color: #f00;
+    background: #8f151a;
+    color: #ffffff;
+    min-width: 100px;
+    border-radius: 3px;
+    min-height: 20px;
+    padding: 2px 8px;
 }
 .buy {
-  color: #0f0;
+    background: #57c065;
+    color: #ffffff;
+    min-width: 100px;
+    border-radius: 3px;
+    min-height: 20px;
+    padding: 2px 8px;
 }
+
 
 .scroll {
   overflow-y: auto;
@@ -170,13 +183,13 @@ tr.clickable-row:hover {
   line-height: 17px;
   width: 100%;
   text-align: center;
-  background: #333;
+  background: #111d25;
   color: #fff;
   border: 0;
 }
 .nav-tabs.columns > li.active > a {
   color: #fff;
-  background: #666;
+  background: #1e2b34;
   border: 0;
 }
 .nav-tabs.columns > li > a:hover {
@@ -194,7 +207,7 @@ tr.clickable-row:hover {
 }
 
 .table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td{
-  padding: 2px;
+  padding: 10px 2px;
 }
 
 a {
@@ -391,3 +404,16 @@ div.buysellwidget form.form-horizontal {
 #orders div.height3 {
     height: calc(100vh - 89px) !important;
 }
+.form-horizontal .form-control{
+	background:none;
+	box-shadow:none;
+	border:1px solid #314858;
+	color:#5f859f;
+	
+}
+.form-horizontal .form-control::-webkit-input-placeholder { color:#5f859f; opacity:1; }
+.form-horizontal .form-control::-moz-placeholder { color:#5f859f; opacity:1; }
+.form-horizontal .form-control:-ms-input-placeholder { color:#5f859f; opacity:1; }
+.form-horizontal .form-control:-moz-placeholder {  color:#5f859f; opacity:1; }
+
+
