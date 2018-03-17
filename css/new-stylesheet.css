@@ -89,7 +89,7 @@ a.navbar-brand {
   height: calc(50vh - 101px);
 }
 .row-box.height4 {
-  height: calc(40vh - 61px);
+  height: calc(45vh - 61px);
 }
 .row-box.height5 {
   height: calc(60vh - 135px);
@@ -418,3 +418,4 @@ div.buysellwidget form.form-horizontal {
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
 	border-top:medium none;
 }
+.slimScrollDiv{height:auto !important; }
