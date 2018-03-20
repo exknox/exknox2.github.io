@@ -148,10 +148,10 @@ tr.clickable-row:hover {
     min-height: 20px;
     padding: 2px 8px;
 }
-
+/*
 .scroll {
   overflow-y: auto;
-}
+}*/
 
 .row-box.nav-header {
   height: 35px;
