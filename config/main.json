@@ -827,5 +827,5 @@
     { "addr": "0x13c2fab6354d3790d8ece4f0f1a3280b4a25ad96", "name": "PHI", "decimals": 18 },
     { "addr": "0x9e71e4aecd2f1dce32095680025a2cd5c3da2863", "name": "RYSE", "decimals": 8 }
   ],
-  "defaultPair": { "token": "JBC", "base": "ETH" }
+  "defaultPair": { "token": "PHI", "base": "ETH" }
 }
