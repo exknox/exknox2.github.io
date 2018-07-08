@@ -825,7 +825,8 @@
     { "addr": "0x2771Ef07dEfB079C309542E11219D97B562ab6b0", "name": "AVL", "decimals": 4 },    
     { "addr": "0x13c2fab6354d3790d8ece4f0f1a3280b4a25ad96", "name": "PHI", "decimals": 18 },
     { "addr": "0x1822f963bc5cd6683737e6befb1d0d695112bdcf", "name": "BRN", "decimals": 18 },
-    { "addr": "0x9e71e4aecd2f1dce32095680025a2cd5c3da2863", "name": "RYSE", "decimals": 8 }
+    { "addr": "0x9e71e4aecd2f1dce32095680025a2cd5c3da2863", "name": "RYSE", "decimals": 8 },
+    { "addr": "0xCB5e39C946ace85D6003C791ef445DD2629C2003", "name": "EKX", "decimals": 8 }
   ],
   "defaultPair": { "token": "PHI", "base": "ETH" }
 }
